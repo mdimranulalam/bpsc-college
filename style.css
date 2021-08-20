@@ -1,0 +1,83 @@
+/* ------------- Google Fonts Start ------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* ------------- Google Fonts End ------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    30px;
+}
+h2{
+    20px;
+}
+
+
+/* ------------- Header Section CSS Start ------------- */
+.flexible-item{
+    display: flex;
+}
+.header-section{
+    width: 100%;
+    height: auto;
+    background-color: #14243b;
+}
+.college-logo{
+    width: 15%;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.college-logo img{
+    width: 120px;
+}
+.college-name{
+    width: 60%;
+    padding-top: 40px;
+}
+.college-name h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.college-name h2{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.college-login-button{
+    width: 20%;
+    padding-top: 40px;
+}
+.payment-btn{
+    width: 40%;
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color:#ffc107;
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login-btn{
+    width: 40%;
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color:#198754;
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+}
+/* ------------- Header Section CSS End ------------- */
