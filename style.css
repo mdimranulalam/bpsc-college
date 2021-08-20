@@ -15,6 +15,9 @@ h1{
 h2{
     20px;
 }
+.fix{
+    overflow: hidden;
+}
 
 
 /* ------------- Header Section CSS Start ------------- */
@@ -89,14 +92,19 @@ h2{
 
 .main-section{
     width: 100%;
+    background-color: #f3f0f0;
 }
 .main-section-bg{
     width: 80%;
     margin:auto;
     padding-top: 100px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    margin-top: 50px;
 }
 .welcome-note{
     width: 60%;
+    padding-left: 5%;
 }
 .welcome-note h2{
     font-size: 35px;
