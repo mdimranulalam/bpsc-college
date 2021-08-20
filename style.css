@@ -98,7 +98,21 @@ h2{
 .welcome-note{
     width: 60%;
 }
+.welcome-note h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.welcome-note p{
+    font-size: 16px;
+    text-align: justify;
+}
 .notice-board{
     width: 40%;
     padding-left: 20px;
+}
+.notice-board h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 400;
 }
